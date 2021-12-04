@@ -15,6 +15,20 @@ or you can pass `...` instead of the N at the beginning:
 
 `arr := [...]type{value1, value2, value3, ..., valueN}`
 
+
+## Slices
+
+Slices are declared almost the same way as the Arrays. The only thing that is different is the length number.
+
+When declaring a slice you **do not** pass it:
+
+`arr := []type{value1, value2, value3, ..., valueN}`
+
+```go
+  // as simple as you can see
+  arr := []int{1, 2, 3, 4}
+```
+
 ## Blank Identifier 
 
 Go does not allow you to have unused variables inside your code.
