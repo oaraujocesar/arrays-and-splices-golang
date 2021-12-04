@@ -46,3 +46,15 @@ func Add(numbers [5]int) (sum int) {
 Using `range` to iterate over an array, two things are returned: the index (the position of that given number at the time) and the number itself and we're not going to use the index on this piece of code for instance so we can replace the `index` for an underline `_`.
 
 This is us telling Go to ignore whatever is coming on that position.
+
+## Test Coverage
+
+Go has a native tool to check the test coverage of your project.
+
+run `go test -cover` at your terminal and something like this will appear on your screen:
+
+```
+  PASS
+  coverage: 100.0% of statements
+  ok      github.com/oaraujocesar/arrays-and-slices-golang        0.151s
+```
