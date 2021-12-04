@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-    <img src="https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GopherLink.png" width="192" /><br />
+    <img src="https://raw.githubusercontent.com/ashleymcnamara/gophers/master/LION_GOPHER.png" width="192" /><br />
     Abstract
   </h1>
 </div>
